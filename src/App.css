@@ -1,0 +1,79 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #ff6347;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menu {
+  margin: 20px 0;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  background-color: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.offers {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.location {
+  margin: 20px 0;
+}
+
+.location .map {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.footer .social-links a {
+  color: #ff6347;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer .social-links a:hover {
+  text-decoration: underline;
+}.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  /* Gradient Background */
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
