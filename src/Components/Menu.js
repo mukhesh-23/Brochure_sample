@@ -1,21 +1,22 @@
-import React from 'react';
-import './Menu.css';
+import React from "react";
+import "./Menu.css";
 
 const Menu = () => {
   const menuItems = [
-    { id: 1, name: 'Margherita Pizza', price: '$10' },
-    { id: 2, name: 'Pasta Carbonara', price: '$12' },
-    { id: 3, name: 'Grilled Salmon', price: '$15' },
-    { id: 4, name: 'Tiramisu', price: '$6' },
+    { name: "Pizza Margherita", price: "$12" },
+    { name: "Spaghetti Carbonara", price: "$15" },
+    { name: "Caesar Salad", price: "$10" },
+    { name: "Grilled Salmon", price: "$20" },
   ];
 
   return (
-    <section className="menu">
+    <section id="menu" className="menu-section">
       <h2>Our Menu</h2>
-      <ul>
-        {menuItems.map((item) => (
-          <li key={item.id}>
-            {item.name} - <span>{item.price}</span>
+      <ul className="menu-list">
+        {menuItems.map((item, index) => (
+          <li key={index} className="menu-item">
+            <span>{item.name}</span>
+            <span>{item.price}</span>
           </li>
         ))}
       </ul>

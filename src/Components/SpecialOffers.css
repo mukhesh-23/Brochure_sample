@@ -1,0 +1,27 @@
+.offers-section {
+    padding: 50px;
+    background: #fff;
+    text-align: center;
+  }
+  
+  .offers-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .offers-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .offer-card {
+    background: #f4b41a;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
